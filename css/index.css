@@ -75,3 +75,26 @@ h4{
     border-radius: 20px;
     color: #fff;
 }
+  .mob-list{
+    display: none;
+  }
+
+  @media screen and (max-width:470px) {
+    .nav-item{
+        font-size: 10px;
+    }
+    .logo{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    body{
+        height: 200%;
+    }
+    .intro {
+      margin-top: 240px;
+      margin-right: 40px;
+    }
+    
+  }
